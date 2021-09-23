@@ -1,0 +1,377 @@
+.process {
+  max-width: 1200px;
+  margin: 0 auto;
+  .process-container {
+    display: grid;
+    grid-template-columns: 25px 150px 2fr;
+    align-items: center;
+    justify-content: center;
+    .left-bg {
+      height: 100%;
+    }
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 84px;
+      height: 58px;
+      background: #ffffff;
+      border: 1px solid #e64949;
+      border-radius: 2px;
+      color: #e54949;
+      padding: 5px;
+      margin: 5px 0;
+      text-align: center;
+    }
+    .item-1 {
+      margin: 0 0 0 auto;
+      width: 650px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px 0;
+      .item-box-line {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .item-box-1 {
+          width: 25px;
+          height: 70px;
+          border: 1px solid #7fcdbf;
+          border-left: none;
+        }
+        .item-box-2 {
+          width: 100%;
+          height: 1px;
+          background-color: #7fcdbf;
+        }
+        .item-box-3 {
+          width: 25px;
+          height: 70px;
+          border: 1px solid #7fcdbf;
+          border-right: none;
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      .left-bg {
+        display: none;
+      }
+      .item-1 {
+        width: 100%;
+      }
+      span {
+        width: 60px;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.chat-img-container {
+  img {
+    max-width: 450px;
+  }
+  @media (max-width: 1450px) {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  border-radius: 50%;
+  background-color: #fff;
+  width: 50px !important;
+  height: 50px !important;
+  color: #4a4b67 !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 22px !important;
+}
+
+.table-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  .table-left-key {
+    height: 100%;
+    border-left: 1px solid #ffe7e7;
+    border-top: 1px solid #ffe7e7;
+    .second-table-key {
+      display: grid;
+      grid-template-rows: auto;
+      background-color: #fff5f5;
+      grid-template-columns: 100px 100px 1fr;
+      grid-template-areas:
+        "single single value0"
+        "title subtitle1 value1"
+        "title subtitle2 value2"
+        "title subtitle3 value3"
+        "title subtitle4 value4"
+        "title subtitle5 value5"
+        "title subtitle6 value6"
+        "title subtitle7 value7"
+        "title subtitle8 value8";
+      span {
+        border-bottom: 1px solid #ffe7e7;
+      }
+      .value-0 {
+        grid-area: value0;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-1 {
+        grid-area: value1;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-2 {
+        grid-area: value2;
+        border-left: 1px solid #ffe7e7;
+        border-bottom: 1px solid #ffe7e7;
+      }
+      .value-3 {
+        grid-area: value3;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-4 {
+        grid-area: value4;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-5 {
+        grid-area: value5;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-6 {
+        grid-area: value6;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-7 {
+        grid-area: value7;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-8 {
+        grid-area: value8;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-9 {
+        grid-area: value9;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .single {
+        grid-area: single;
+        border-bottom: 1px solid #ffe7e7;
+      }
+      .single-2 {
+        grid-area: single2;
+        border-bottom: 1px solid #ffe7e7;
+      }
+      .single-3 {
+        grid-area: single3;
+        border-bottom: 1px solid #ffe7e7;
+      }
+      .title {
+        grid-area: title;
+        border-right: 1px solid #ffe7e7;
+      }
+      .subtitle-1 {
+        grid-area: subtitle1;
+      }
+      .subtitle-2 {
+        grid-area: subtitle2;
+      }
+      .subtitle-3 {
+        grid-area: subtitle3;
+      }
+      .subtitle-4 {
+        grid-area: subtitle4;
+      }
+      .subtitle-5 {
+        grid-area: subtitle5;
+      }
+      .subtitle-6 {
+        grid-area: subtitle6;
+      }
+      .subtitle-7 {
+        grid-area: subtitle7;
+      }
+      .subtitle-9 {
+        grid-area: subtitle9;
+      }
+      .subtitle-10 {
+        grid-area: subtitle10;
+      }
+      p {
+        padding: 10px 30px;
+      }
+      span {
+        padding: 10px;
+      }
+    }
+    .seller-table-key {
+      display: grid;
+      grid-template-rows: auto;
+      background-color: #fff5f5;
+      grid-template-columns: 100px 100px 1fr;
+      grid-template-areas:
+        "single single value0"
+        "title subtitle1 value1"
+        "title subtitle2 value2"
+        "title subtitle3 value3"
+        "title subtitle4 value4"
+        "title subtitle5 value5"
+        "title subtitle6 value6"
+        "title subtitle7 value7"
+        "single2 single2 value8";
+      span {
+        border-bottom: 1px solid #ffe7e7;
+      }
+      .value-0 {
+        grid-area: value0;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-1 {
+        grid-area: value1;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-2 {
+        grid-area: value2;
+        border-left: 1px solid #ffe7e7;
+        border-bottom: 1px solid #ffe7e7;
+      }
+      .value-3 {
+        grid-area: value3;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-4 {
+        grid-area: value4;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-5 {
+        grid-area: value5;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-6 {
+        grid-area: value6;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-7 {
+        grid-area: value7;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .value-8 {
+        grid-area: value8;
+        border-bottom: 1px solid #ffe7e7;
+        border-left: 1px solid #ffe7e7;
+      }
+      .single {
+        grid-area: single;
+        border-bottom: 1px solid #ffe7e7;
+      }
+      .single-2 {
+        grid-area: single2;
+        border-bottom: 1px solid #ffe7e7;
+      }
+      .single-3 {
+        grid-area: single3;
+        border-bottom: 1px solid #ffe7e7;
+      }
+      .title {
+        grid-area: title;
+        border-right: 1px solid #ffe7e7;
+      }
+      .subtitle-1 {
+        grid-area: subtitle1;
+      }
+      .subtitle-2 {
+        grid-area: subtitle2;
+      }
+      .subtitle-3 {
+        grid-area: subtitle3;
+      }
+      .subtitle-4 {
+        grid-area: subtitle4;
+      }
+      .subtitle-5 {
+        grid-area: subtitle5;
+      }
+      .subtitle-6 {
+        grid-area: subtitle6;
+      }
+      .subtitle-7 {
+        grid-area: subtitle7;
+      }
+      .subtitle-9 {
+        grid-area: subtitle9;
+      }
+      .subtitle-10 {
+        grid-area: subtitle10;
+      }
+      p {
+        padding: 10px 30px;
+      }
+      span {
+        padding: 10px;
+      }
+    }
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 768px) {
+      border-left: none;
+      .second-table-key,
+      .seller-table-key {
+        grid-template-columns: 50px  50px 1fr;
+      }
+    }
+  }
+
+  .seller-table {
+    border: 1px solid #ffe7e7;
+    .seller-table-item {
+      display: grid;
+      grid-template-columns: 1fr;
+      border-bottom: 1px solid #ffe7e7;
+      &:last-child {
+        border: none;
+      }
+      span {
+        padding: 10px;
+        border-right: 1px solid #ffe7e7;
+        background-color: #fff5f5;
+      }
+      p {
+        padding: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 1230px) {
+    font-size: 12px;
+  }
+
+}
