@@ -69,15 +69,15 @@ export default function Home() {
     <div>
       <Head>
         <title>
-        订餐大王—— 致力于提供一套简单方便、专业可靠的订餐系统
+        订餐系统|外卖系统|订餐APP|海外订餐APP|微信订餐系统|订餐外卖软件解决方案—订餐大王
         </title>
         <meta
           name="keywords"
-          content="订餐大王—— 致力于提供一套简单方便、专业可靠的订餐系统"
+          content="订餐系统|外卖系统|订餐APP|海外订餐APP|微信订餐系统|订餐外卖软件解决方案—订餐大王"
         />
         <meta
           name="description"
-          content="订餐大王—— 致力于提供一套简单方便、专业可靠的订餐系统"
+          content="订餐系统|外卖系统|订餐APP|海外订餐APP|微信订餐系统|订餐外卖软件解决方案—订餐大王"
         />
         <script
           dangerouslySetInnerHTML={{

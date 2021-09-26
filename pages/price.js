@@ -146,32 +146,32 @@ const priceTable = [
     business: '2000元'
   },
   {
-    key: '首年费用',
+    key: '永久费用',
     type: 0,
-    normal: '29999元',
-    business: '8888元'
+    normal: '15800元',
+    business: '6800元'
   },
-  {
-    key: '续年费用',
-    type: 0,
-    normal: '20%（合同价）',
-    business: '20%（合同价）'
-  },
+  // {
+  //   key: '续年费用',
+  //   type: 0,
+  //   normal: '20%（合同价）',
+  //   business: '20%（合同价）'
+  // },
 ]
 
 function IntegrationOfWarehouse() {
   return <div className='integrated'>
     <Head>
       <title>
-      订餐大王—— 致力于提供一套简单方便、专业可靠的订餐系统
+      订餐系统|外卖系统|订餐APP|海外订餐APP|微信订餐系统|订餐外卖软件解决方案—订餐大王
         </title>
       <meta
         name="keywords"
-        content="订餐大王—— 致力于提供一套简单方便、专业可靠的订餐系统"
+        content="订餐系统|外卖系统|订餐APP|海外订餐APP|微信订餐系统|订餐外卖软件解决方案—订餐大王"
       />
       <meta
         name="description"
-        content="订餐大王—— 致力于提供一套简单方便、专业可靠的订餐系统"
+        content="订餐系统|外卖系统|订餐APP|海外订餐APP|微信订餐系统|订餐外卖软件解决方案—订餐大王"
       />
       <script
         dangerouslySetInnerHTML={{
@@ -250,14 +250,14 @@ function IntegrationOfWarehouse() {
           <span className="price-table-cell" style={{ backgroundColor: '#FFF7DA' }}>
             <h4 className="font-bold">企业版本</h4>
             <div>
-              <h6 className="font-normal mr-1">首年</h6>
+              <h6 className="font-normal mr-1">永久</h6>
               <h2 className="md:text-5xl">15800￥</h2>
             </div>
           </span>
           <span className="price-table-cell bg-second-primary " style={{ backgroundColor: '#FFF7DA'}}>
             <h4 className="font-bold">标准版本</h4>
             <div>
-              <h6 className="font-normal mr-1">首年</h6>
+              <h6 className="font-normal mr-1">永久</h6>
               <h2 className="md:text-5xl">6800￥</h2>
             </div>
           </span>
