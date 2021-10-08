@@ -25,7 +25,7 @@ app.prepare().then(() => {
     await next();
   });
   server.use(router.routes());
-  server.listen(30006, () => {
-    console.log(`> Ready on http://localhost:${30006}`);
+  server.listen(3006, () => {
+    console.log(`> Ready on http://localhost:${3006}`);
   });
 });
