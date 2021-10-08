@@ -97,7 +97,7 @@ export default function Home() {
         <div className="p-5 mr-8 flex flex-col" >
           <h1 className="text-5xl font-bold">外卖系统海外版，英文版订餐系统 </h1>
           <p className="text-base font-bold py-10">订餐大王 — — 一套简单实用的海外订餐外卖系统</p>
-        <a href='https://test-h5.aries.nle-tech.com/#/'target="_blank" className="experience-btn">立即体验</a>
+        <a href='https://test-h5.dingcandawang.com/'target="_blank" className="experience-btn">立即体验</a>
         </div>
         <div >
           <img src="/images/home/banner-img.jpg"/>
@@ -148,7 +148,7 @@ export default function Home() {
           </div>
           <div className="grid-item-2">
             <img src="/images/home/arlbs.png" />
-            <span>爱尔兰部署</span>
+            <span>私有部署</span>
           </div>
        
           <div className="grid-item-4 font-normal text-third-primary py-10">
@@ -156,7 +156,7 @@ export default function Home() {
           </div>
           <div className="grid-item-5">
             <img src="/images/home/zfb.png" className="ml-8" />
-            <span>支付宝</span>
+            <span>在线支付</span>
           </div>
           <div className="grid-item-6">
             <img src="/images/home/zz.png" />

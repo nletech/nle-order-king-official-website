@@ -193,7 +193,7 @@ function IntegrationOfWarehouse() {
         <p className="text-base font-normal my-10">多语言切换，多币种，多种线支付方式，微信朋友圈轻松下单，</p>
         <p className="text-base font-normal mb-10">简单实用，上线只需要一天</p>
         
-        <a href='https://test-h5.aries.nle-tech.com/#/'target="_blank" className="experience-btn">立即体验</a>
+        <a href='https://test-h5.dingcandawang.com/'target="_blank" className="experience-btn">立即体验</a>
       </div>
       <div>
       <img src="/images/home/banner-img.jpg"/>

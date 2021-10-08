@@ -16,7 +16,7 @@ const routerList = [
     name: '关于我们',
   },
   {
-    path: 'https://test-h5.aries.nle-tech.com/#/',
+    path: 'https://test-h5.dingcandawang.com/',
     name: '立即体验',
   },
 ];
@@ -51,10 +51,10 @@ function Header(props) {
             {routerList.map((item) => (
               <li
                 key={item.path}
-                className={`float-left font-bold px-6 ${item.path === 'https://test-h5.aries.nle-tech.com/#/' ? 'experience-btn' : ''}`}
+                className={`float-left font-bold px-6 ${item.path === 'https://test-h5.dingcandawang.com/' ? 'experience-btn' : ''}`}
               >
                 <Link href={item.path}>
-                  <a className={`${pathname == item.path ? 'text-fourth-primary' : 'text-second-primary'}`} target={`${item.path =='https://test-h5.aries.nle-tech.com/#/' ? '_blank' : ''}`}>{item.name}</a>
+                  <a className={`${pathname == item.path ? 'text-fourth-primary' : 'text-second-primary'}`} target={`${item.path =='https://test-h5.dingcandawang.com/' ? '_blank' : ''}`}>{item.name}</a>
                 </Link>
               </li>
               

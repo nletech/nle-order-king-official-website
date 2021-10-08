@@ -21,7 +21,7 @@ class Aside extends React.Component {
           name: '关于我们',
         },
         {
-          path: 'https://test-h5.aries.nle-tech.com/#/',
+          path: 'https://test-h5.dingcandawang.com/',
           name: '免费体验',
         },
       ],

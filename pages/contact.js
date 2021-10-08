@@ -57,7 +57,7 @@ function About() {
       <div className="p-5 flex flex-col mr-40 max-lg:mr-0">
         <h1 className="text-5xl font-bold ">订餐大王</h1>
         <p className="text-base font-normal my-10">做外卖，做线上订餐，有了订餐大王系统，省事省时方便多</p>
-        <a href='https://test-h5.aries.nle-tech.com/#/' target="_blank" className="experience-btn">立即体验</a>
+        <a href='https://test-h5.dingcandawang.com/' target="_blank" className="experience-btn">立即体验</a>
       </div>
       <div>
         <img src="/images/home/banner-img.jpg" />
