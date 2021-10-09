@@ -162,8 +162,6 @@ export default function Home() {
             <img src="/images/home/zz.png" />
             <span>谷歌地图</span>
           </div>
-          {/* <div className="grid-item-8">
-          </div> */}
         </div>
       </div>
       <h2 className="text-5xl my-10 text-center font-normal">订餐系统后台</h2>
@@ -183,19 +181,6 @@ export default function Home() {
         }
       </div>
       </div>
-        {/* <div className="grid grid-cols-4 justify-center items-center container mx-auto max-lg:grid-cols-1">
-          <div className="text-second-primary py-10 px-5">
-            <h2 className="text-2xl my-10">订餐系统后台登录界面、首页外卖自提点商品销售数据展示</h2>
-            <div className="grid grid-cols-4 gap-10 max-sm:text-sm">
-              {adminList.map(item => <div key={item.name}>
-                <img src={`/images/home/${item.img}`} />
-                <p className="my-3">{item.desc}</p>
-                <p className="my-3">{item.name}</p>
-              </div>)}
-            </div>
-          </div>
-          
-        </div> */}
       </div>
       <div>
       <h2 className="text-5xl pt-10  mb-4 text-center font-normal">外卖订餐界面</h2>
@@ -208,32 +193,6 @@ export default function Home() {
           </div>)
         }
       </div>
-        {/* <div className="img-list mx-auto grid grid-cols-5 justify-center max-ll:grid-cols-1">
-          <img src="/images/home/img-1.png" />
-          <h2>订餐首页</h2>
-          <p>顶部查看订餐餐馆信息，浏览外卖菜单，选购外卖商品</p>
-          <img src="/images/home/img-2.png" />
-          <img src="/images/home/img-3.png" />
-          <img src="/images/home/img-3.png" />
-          <img src="/images/home/img-3.png" />
-        <div className="fourth-primary m-auto pb-12" >
-          <div className=" text-center ">
-          <h1 className=" text-5xl font-normal mb-8">平台买家</h1>
-         <div>
-         <img src="/images/home/img-4.png" />
-         <div className="-mt-10 text-xl text-white" >首页</div>
-         </div>
-         <div className="py-4">
-         <img src="/images/home/img-4.png" />
-         <div className="-mt-10 text-xl text-white">购物车</div>
-         </div>
-         <div>
-         <img src="/images/home/img-4.png" />
-         <div className="-mt-10 text-xl text-white">我的</div>
-         </div>
-          </div>
-        </div>
-        </div> */}
       </div>
 <div className="bg-fifth-primary"> 
   <div style={{ maxWidth: '1088px' }} className="mx-auto p-5 font-normal">
