@@ -44,7 +44,6 @@ function Header(props) {
         <div className="flex items-center">
           <img src="/images/logo.png" style={{ width: '55px', height: '55px' }} alt="" />
           <span className="ml-1 font-bold text-lg">订餐大王</span>
-          {/* <span className="text-primary-100 text-sm ml-1">最好的代购技术解决方案</span> */}
         </div>
         <div className="hidden md:block">
           <ul className="flex items-center list-none">

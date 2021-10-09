@@ -187,7 +187,7 @@ function IntegrationOfWarehouse() {
         }}
       ></script>
     </Head>
-    <div className="w-full bg-center header-top-banner flex justify-center items-center max-lg:flex-col">
+    <div className="w-full bg-center header-top-banner flex justify-evenly items-center max-lg:flex-col">
       <div className="p-5 flex flex-col">
         <h1 className="text-5xl font-bold">订餐大王外卖订餐系统软件解决方案</h1>
         <p className="text-base font-normal my-10">多语言切换，多币种，多种线支付方式，微信朋友圈轻松下单，</p>

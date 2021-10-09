@@ -93,13 +93,13 @@ export default function Home() {
           }}
         ></script>
       </Head>
-      <div className="w-full bg-center header-top-banner flex justify-center items-center  max-lg:flex-col">
-        <div className="p-5 mr-8 flex flex-col" >
+      <div className="w-full bg-center header-top-banner flex justify-evenly items-center  max-lg:flex-col">
+        <div className="p-5 flex flex-col" >
           <h1 className="text-5xl font-bold">外卖系统海外版，英文版订餐系统 </h1>
           <p className="text-base font-bold py-10">订餐大王 — — 一套简单实用的海外订餐外卖系统</p>
         <a href='https://test-h5.dingcandawang.com/'target="_blank" className="experience-btn">立即体验</a>
         </div>
-        <div >
+        <div>
           <img src="/images/home/banner-img.jpg"/>
         </div>
       </div>
@@ -199,7 +199,7 @@ export default function Home() {
       </div>
       <div>
       <h2 className="text-5xl pt-10  mb-4 text-center font-normal">外卖订餐界面</h2>
-      <div className="text-second-primary md:container grid gap-10 grid-cols-5 justify-between  mx-auto max-sm:flex-col max-lg:grid-cols-1 pb-20">
+      <div className="text-second-primary md:container px-8 grid gap-10 grid-cols-5 justify-between  mx-auto max-sm:flex-col px-0 max-lg:grid-cols-1 pb-20">
         {
           imgList.map(item => <div className="list-img mx-auto max-w-xs" key={item.name}>
             <img className="mx-auto mb-4 " src={`../images/home/${item.img}`} />
